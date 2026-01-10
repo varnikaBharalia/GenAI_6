@@ -1,0 +1,22 @@
+# Component we are going to create that will be going to use in futher 
+import random
+
+class NakliLLM:
+    def __init__(self):
+        print('LLM created')
+
+    def predict(self, prompt):
+        # List of possible responses
+        response_list = [
+            'Delhi is the Capital of India',
+            'IPL is a cricket league',
+            'AI stands for artificial intelligence'
+        ]
+        return {'response': random.choice(response_list)}
+
+# 1. Instantiate the class using ()
+llm = NakliLLM() 
+
+# 2. Call the method on the instance
+result = llm.predict('What is the capital of India')
+print(result)
