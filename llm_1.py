@@ -48,4 +48,3 @@ print(prompt)
 llm = NakliLLM()
 result = llm.predict(prompt)
 print(result)
-
