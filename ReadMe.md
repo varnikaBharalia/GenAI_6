@@ -27,4 +27,43 @@
     3) Common interface in every runnable . eg: invoke() , batch() , stream()
     4) These runnables can be connected easily . and automatically the output of 1 act as a input od 2 . 
     5) and the workflow we created to create but connecting r1,2,3 and these also act as a runnable individually 
-    6) 
+    6) Make a abstract class named Runnable . and we'll add our invoke method to it and all other classes must inherit runnable class and this runnable class method invoke must be overwritten byt the other classes. 
+
+-------------------------------------------------
+
+1)  Standardizing all the components so taht it will used to made life of AI eng easrier .  So then comes the  Runnable - a abstract class that is the parent to all the components 
+
+2) Runnables --> Task specific runnables 
+             --> Runnalbe primitivies 
+
+
+
+3) RunnableSequence - we can use this for connecting runnables in sequence. 
+        eg: prompt -> llm 
+
+
+4) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
